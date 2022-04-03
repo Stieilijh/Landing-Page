@@ -4,12 +4,18 @@
 }
 .footer-section{
     text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 .content.title{
     font-size:48px;
     font-weight:900;
 }
-
+.reminderbox.header{
+    font-size:24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
 .header-section{
     display: flex;
     justify-content: space-around;
@@ -17,36 +23,91 @@
 }
 .header.logo{
     font-size: 24px;
-    
 }
 
-.content.text,.header.links{
+.content.text,.header.links,.reminderbox.text{
     font-size: 18px;
     color:#E5E7EB;
 }
 
 ul{
-list-style: none;
-display: flex;
-gap:20px;
+    list-style: none;
+    display: flex;
+    gap:20px;
 }
 .content-section{
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     justify-content: space-around;
     padding:50px 20px;
 }
 button{
-background-color: #3882F6;
-color:#F9FAF8;
-padding: 8px 16px;
-font-size:16px;
-border-radius: 6px;
-border: none;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 8px 16px;
+    font-size:16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
 }
 body{
     padding:0;
     margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
+.info.title{
+    font-size: 36px ;
+    font-weight: 900;
+    color:#1F2937;
+    text-align:center;
+    padding:30px;
+}
+.info-section{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    padding: 30px;
+}
+.info.boxes{
+    max-width: 200px;
+}
+.filler{
+    background-color: #E5E7EB;
+    color:#1F2937;
+    font-style:italic;
+    font-size:36px;
+    padding: 35px ;
+}
+.infobox.images{
+    border-radius: 4px;
+    border:2px solid #3882F6;
+}
+.filler.author{
+    text-align: center;
+}
+.reminderbox{
+    background-color: #3882F6;
+    border-radius:4px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 150px;
+    padding:30px;
+}
+.reminderbox.header,.reminderbox.text{
+    margin: 0;
+    padding:0 ;
+}
+.reminderbox.button{
+    border:2px solid #F9FAF8;
+    margin:0;
+    padding: 8px 16px;
+}
+.reminderbox.left{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+}
+
 
